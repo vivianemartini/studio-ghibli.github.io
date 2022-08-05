@@ -1,7 +1,7 @@
 .btn-container {
     display: flex;
     gap: 20px;
-    width: 80%;
+    width: 100%;
 }
 
 .button {
@@ -15,30 +15,31 @@
     cursor: pointer;
     padding:.5em 2em;
     text-decoration: none;
-    //clip-path: polygon(10% 0%, 100% 0%, 91% 100%, 0% 100%);
+    display: flex;
 }
 
 .btn-1 {
     background: $green-btn;
     border: 2px solid transparent;
- 
-
-    &:hover {
-        background: $white;
-        color: $green;
-    }
+    transform: skew(-27deg);
+    display: flex;
+    gap: 10px;
 }
 
 .btn-2 {
     border: 2px solid $green-btn;
     background: transparent;
-
-    &:hover {
-        background: $white;
-        color: $green;
-    }
+    transform: skew(-27deg);
 }
 
+.btn-1 span, .btn-2 span {
+    transform: skew(27deg);
+}
 
-
-
+.play-img {
+    width: 13px;
+    height: 15px;
+    margin-top: 6px;
+    margin-left: -10px;
+    transform: skew(27deg);
+}
