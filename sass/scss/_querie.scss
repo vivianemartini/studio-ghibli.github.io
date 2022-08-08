@@ -35,4 +35,14 @@
         flex-direction: column;
         width: 60%;
     }
+    .trailer video {
+        max-width: 400px;
+    }
+    .close {
+        top: 90px;
+        max-width: 20px;
+    }
+    .footer {
+        margin-top: 120px;
+    }
 }
