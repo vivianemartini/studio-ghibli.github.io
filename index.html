@@ -32,13 +32,17 @@
                     </div>
                     <p class="description">Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.</p>
                     <div class="btn-container">
-                        <a class="button btn-1" href="https://ghiblicollection.com/" target="_blank">
+                        <a class="button btn-1" href="https://www.netflix.com/br/title/60023642" target="_blank">
                             <img class="play-img" src="img/play.png" alt="">
                             <span class="btn-text">Assitir agora</span>
                         </a>
-                        <a class="button btn-2" href="">
+                        <a onclick="toggleVideo();" class="button btn-2" herf="#">
                             <span class="btn-text">Assista ao trailer</span>
                         </a>
+                        <div class="trailer">
+                            <video src="img/Spirited_Away_Trailer.mp4" controls="true" autoplay="true"></video>
+                            <img class="close" onclick="toggleVideo();" src="/img/close.png" alt="close button">
+                        </div>
                     </div>
                 </div>
                 <div class="content-img">
@@ -47,5 +51,6 @@
             </section>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
