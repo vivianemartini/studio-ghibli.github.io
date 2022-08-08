@@ -24,17 +24,26 @@
     transform: skew(-27deg);
     display: flex;
     gap: 10px;
+
+    &:hover {
+        text-decoration:underline ;
+    }   
 }
 
 .btn-2 {
     border: 2px solid $green-btn;
     background: transparent;
     transform: skew(-27deg);
+    
+    &:hover {
+        text-decoration:underline ;
+    }
 }
 
 .btn-1 span, .btn-2 span {
     transform: skew(27deg);
 }
+
 
 .play-img {
     width: 13px;
