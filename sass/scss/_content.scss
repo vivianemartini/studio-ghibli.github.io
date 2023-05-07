@@ -25,10 +25,6 @@
     align-items: center;
 }
 
-main {
-    height: 550px;
-}
-
 .content-container {
     display: flex;
 }
@@ -60,7 +56,7 @@ main {
 }
 
 
-.author, h1, .description {
+.author, h1, .description, footer {
     color: $white;
     font-family: $font-family;
     font-style: normal;
@@ -85,4 +81,10 @@ h1 {
     font-size: 16px;
     line-height: 180%;
     width: 80%;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 10px;
 }
