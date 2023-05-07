@@ -18,3 +18,9 @@ This is my solution for the [Codelandia - Iuri Silva](https://discord.com/channe
 * [Optimizing for Large-Scale Displays](https://css-tricks.com/optimizing-large-scale-displays/)
 * [Clip Path](https://bennettfeely.com/clippy/)
 * [The Shapes of CSS](https://css-tricks.com/the-shapes-of-css/#aa-parallelogram-shape)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+- Thanks Codelandia
